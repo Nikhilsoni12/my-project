@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS/all.css">
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+        <nav>
+            <img src="Images/nikhil.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>Hi, I'm <span>NIKHIL</span>SONI<br> From India</h1>
+            <p>FullStack Web-developer</p>
+            
+        </div>
+    </div>
+  </div>
+ <!-- ----------------- About ---------------------------- -->
+  <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/mypic.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                     text ever sin passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                     </div>
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Frontend</span><br>HTML,CSS,BootStrap,JS</li>
+                            <li><span>DATABASE</span><br>Mysql,Mssql</li>
+                            <li><span>Backend</span><br>PHP-core, php with laravel</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 -current</span><br>Apprenticeship Programme :: Techpile Technology Pvt. Ltd.</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Intermediate : 2020</span><br>Board of High School and Intermediate Education U.P</li>
+                            <li><span>Polytechnic Diploma : 2020-2023</span><br>Government Polytechnic Mahoba</li>
+                        </ul>
+                     </div>
+            </div>
+        </div>
+    </div>
+  </div>  
+  <!-- ----------------services----------------------------- -->
+  <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Web design is the creation of websites and pages to reflect a company’s brand and information and ensure a user-friendly experience. Appearance and design are 
+                    incorporated as vital elements whether you’re designing a website, mobile app or maintaining content on a web page. 
+                   </p>
+                   <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>While “design” is often equated with graphic design or visual design, design is a vast discipline with many subdisciplines – everything from industrial design to service design falls under the umbrella of design.
+                     Merriam-We bster offers one appropriately broad definition of design: “to plan and make (something) for a specific use or purpose.
+                    
+                   </p>
+                   <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Design</h2>
+                <p>Aap design typically refers to the visual and functional aspects of designing a mobile application (app). It encompasses creating an intuitive and aesthetically
+                     pleasing user interface (UI) that enhances the user experience (UX). Here are some key points related to app design:
+                   </p>
+                   <a href="#">learn more</a>
+            </div>
+
+        </div>
+    </div>
+  </div>
+  <!-- ----------------Portfolio----------------------------- -->
+  <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+            <img src="Images/hc.jpeg" alt="">
+            <div class="layer">
+                <h3>health Consultant project</h3>
+                <p>A health consultant provides medical-related organizations with expert-level
+                     advice and knowledge.</p>
+                     <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="Images/digi.png" alt="">
+            <div class="layer">
+                <h3>Digital clock</h3>
+                <p>A digital clock displays the time digitally as opposed to an analogue clock.
+                    Digital clocks. </p>
+                     <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="Images/md.png" alt="">
+            <div class="layer">
+                <h3>Modal Project</h3>
+                <p>In other to show the modal, create a function called openModal.
+                     Inside this function.</p>
+                     <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+  </div>
+  <!-- ----------------Contact----------------------------- -->
+  <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>soninikhilmhb7388@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>7388430593</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <a href="Images/Nikhil-resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form action="">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" id="" cols="30" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Nikhil. Made by me <i class="fa-solid fa-heart"></i></p>
+    </div>
+  </div>
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+  </script>
+</body>
+</html>
